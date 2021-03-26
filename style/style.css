@@ -1,3 +1,9 @@
-#spisok{
-list-style-image:url(marker.gif);
+#sp{
+ width:150px;
+}
+#spisok1{
+ list-style-position:inside;
+}
+#spisok2{
+ list-style-position:outside;
 }
