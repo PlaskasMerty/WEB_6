@@ -1,9 +1,21 @@
-#sp{
- width:150px;
+#header{
+background:darkred;
+width:715px;
+height:100px;
 }
-#spisok1{
- list-style-position:inside;
+#menu{
+background:oldlace;
+width:190px;
+height:300px;
 }
-#spisok2{
- list-style-position:outside;
+#content{
+background:oldlace;
+width:525px;
+height:300px;
 }
+#footer{
+background:darkred;
+width:715px;
+height:30px;
+}
+
