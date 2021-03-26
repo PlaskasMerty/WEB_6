@@ -5,8 +5,10 @@
 #menu a{
  color:#2b3845;
  text-decoration:none;
+ display:block;
 }
 #menu a:hover{
  color:#92A9BF;
  background:blue;
 }
+
