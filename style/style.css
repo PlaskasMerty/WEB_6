@@ -2,5 +2,11 @@
 border:1px solid red;
 width:150px;
 height:50px;
+float:left;
+}
+#blok2{
+border:1px solid red;
+width:150px;
+height:50px;
 float:right;
 }
