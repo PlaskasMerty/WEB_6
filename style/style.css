@@ -1,9 +1,12 @@
 #spisok1{
-list-style-type:disk;
+list-style-type:decimal;
 }
 #spisok2{
-list-style-type:circle;
+list-style-type:lower-roman;
 }
 #spisok3{
-list-style-type:square;
+list-style-type:upper-roman;
+}
+#spisok4{
+list-style-type:lower-alpha;
 }
