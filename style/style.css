@@ -1,6 +1,53 @@
-h6{
- display:list-item;
+#menu{
+ width:100px;
+ height:100px;
+ border:1px solid red;
+ margin:5px;
+ padding:5px;
+ background:yellow;
+ position:absolute;
+ left:10px;
+ top:10px;
 }
-
-
-
+#menu a{
+ color:#2b3845;
+ text-decoration:none;
+ display:block;
+}
+#menu a:hover{
+ color:#2b3845;
+ text-decoration:underline;
+ display:block;
+}
+#book, #movie, #musik, #game{
+ background:yellow;
+ border:1px solid red;
+ position:absolute;
+ left:110px;
+ top:15px;
+ width:120px;
+ height:100px;
+ visability:hidden;
+}
+#book{
+ z-index:1;
+}
+#movie{
+ z-index:2;
+}
+#musik{
+ z-index:3;
+}
+#game{
+ z-index:4;
+}
+#book a, #movie a, #musik a, #game a{
+display:block;
+color:red;
+text-decoration:none;
+}
+#book a:hover, #movie a:hover, #musik a:hover, #game a:hover{
+display:block;
+color:pink;
+text-decoration:underline;
+}
